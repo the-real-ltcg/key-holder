@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "Lets you pick a key and holds it down for you until you toggle it off. Configure via /keyholder or the Mod Menu config screen.",
+  "authors": ["the-real-ltcg"],
+  "contact": {},
+  "license": "${mod_license}",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ltcg.keyholder.fabric.KeyHolderFabric"],
+    "modmenu": ["com.ltcg.keyholder.fabric.KeyHolderModMenu"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
