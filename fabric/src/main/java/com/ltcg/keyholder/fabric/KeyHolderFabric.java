@@ -33,7 +33,6 @@ public class KeyHolderFabric implements ClientModInitializer {
 
         toggleKeyBinding = KeyMappingHelper.registerKeyMapping(new KeyMapping(
                 "key.keyholder.toggle",
-                InputConstants.Type.KEYSYM,
                 InputConstants.UNKNOWN.getValue(),
                 CATEGORY));
 

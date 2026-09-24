@@ -15,4 +15,5 @@ plugins {
 
 rootProject.name = 'key-holder'
 
+include 'fabric-26.3'
 include 'fabric-26.2'
